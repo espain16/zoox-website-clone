@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
+    <>
       <nav>
         <ul>
           <li>
-            <Link to="/vehicles">Vehicles</Link>
+            <Link to="/vehicle">Vehicles</Link>
           </li>
           <li>
             <Link to="/autonomy">Autonomy</Link>
@@ -16,14 +16,14 @@ function NavBar() {
             <Link to="/">Zoox</Link>
           </li>
           <li>
-            <Link to="">Careers</Link>
+            <Link to="/careers">Careers</Link>
           </li>
           <li>
-            <Link to="">Menu</Link>
+            <Link to="/menu">Menu</Link>
           </li>
         </ul>
       </nav>
-    </div>
+    </>
   );
 }
 
