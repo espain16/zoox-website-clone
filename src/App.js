@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import "./styles/app.css";
 
 import NavBar from "./components/NavBar";
 
@@ -13,7 +14,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <>
-      <NavBar />
+      <NavBar className="" />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vehicle" element={<Vehicle />} />
