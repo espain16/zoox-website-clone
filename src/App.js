@@ -14,7 +14,7 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <>
-      <NavBar className="" />
+      <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/vehicle" element={<Vehicle />} />

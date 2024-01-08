@@ -4,6 +4,7 @@
     justify-content: center;
     :visited {
         text-decoration: none;
+        color: black;
     }
     :link {
         text-decoration: none;
@@ -17,6 +18,11 @@
         margin: 0px 20px;
     }
     .company-logo {
+        font-family: 'Bai Jamjuree', sans-serif;
+        text-transform: uppercase;
+        font-size: 30px;
         font-weight: bold;
+        color: #00978c;
+        letter-spacing: 10px;
     }
 }
