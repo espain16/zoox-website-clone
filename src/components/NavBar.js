@@ -7,7 +7,7 @@ function NavBar() {
       <nav className="navbar-container">
         <ul>
           <li>
-            <Link to="/vehicle">Vehicles</Link>
+            <Link to="/vehicle">Vehicle</Link>
           </li>
           <li>
             <Link to="/autonomy">Autonomy</Link>
